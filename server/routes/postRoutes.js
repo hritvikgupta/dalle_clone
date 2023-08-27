@@ -19,7 +19,7 @@ cloudinary.config({
 router.route('/').get(async(req, res) =>{
         try{
             const post = await Post.find({})
-            console.log(post)
+            // console.log(post)
             res.status(200).json({success:true, data:post})
         }catch(error){
             res.status(500).json({success:false, message:error})
@@ -32,12 +32,12 @@ router.route('/').post(async(req, res) =>{
     try{
         const{name,prompt, photo} = req.body;
         // console.log(name, prompt, photo)
-        const photourl = await cloudinary.uploader.upload(photo);
-        console.log(photourl)
+        // const photourl = await cloudinary.uploader.upload(photo);
+        console.log(photo)
         const newPost = await Post.create({
             name, 
             prompt,
-            photo: photourl.secure_url // or photourl.url, depending on whether you want to use HTTPS or HTTP.
+            photo: photo // or photourl.url, depending on whether you want to use HTTPS or HTTP.
         });
         
 
