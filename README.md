@@ -2,7 +2,7 @@
 
 This project is a web application built using the MERN stack. It integrates the OpenAI API and uses Tailwind with React to provide a modern, responsive UI.
 
-## Link to the project: https://openai-dalle-text-to-image.netlify.app/
+## Link to the demo: https://openai-dalle-text-to-image.netlify.app/
 
 ## Table of Contents
 
@@ -19,31 +19,31 @@ This project is a web application built using the MERN stack. It integrates the 
 - **Responsive Design**: Styled using Tailwind CSS.
 - **MERN Stack**: Built on MongoDB, Express.js, React, and Node.js.
 
-.
-├── client                  # Frontend React application
-│   ├── dist
-│   ├── public
-│   ├── src
-│   │   ├── assets          # Static assets like images
-│   │   ├── components      # React components
-│   │   ├── constants       # Constants used across the app
-│   │   ├── pages           # Page components
-│   │   ├── utils           # Utility functions
-│   │   ├── App.css
-│   │   ├── App.jsx
-│   │   ├── index.js
-│   │   └── main.jsx
-│   ├── postcss.config.js
-│   ├── tailwind.config.js
-│   └── vite.config.js
-│
-├── server                  # Backend server
-│   ├── mongodb             # MongoDB connection and configuration
-│   ├── models              # Data models
-│   ├── routes              # API routes
-│   └── index.js            # Entry point
-│
-└── README.md               # Project documentation
+## Project Structure:
+- `client`: This is the main folder containing all frontend-related files for the React application.
+    * `dist`: Distribution folder.
+    * `public`: Contains public assets.
+    * `src`: Root folder containing source files.
+        - `assets`: Static assets like images.
+        - `components`: Contains reusable React components.
+        - `constants`: Constants used across the application.
+        - `pages`: Contains different page components.
+        - `utils`: Utility functions and files.
+        - `App.css`: Styles specific to the main application.
+        - `App.jsx`: The main React component.
+        - `index.js`: Entry point for the React application.
+        - `main.jsx`: Main JSX file.
+    * `postcss.config.js`: Configuration file for PostCSS.
+    * `tailwind.config.js`: Configuration file for Tailwind CSS.
+    * `vite.config.js`: Configuration file for Vite.
+
+- `server`: This folder contains all backend-related files.
+    * `mongodb`: Contains files related to MongoDB connection and configuration.
+    * `models`: Data model definitions.
+    * `routes`: Contains API route definitions.
+    * `index.js`: Entry point for the backend server.
+
+- `README.md`: Documentation for the project.
 
 ## Installation & Setup
 
