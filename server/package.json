@@ -19,7 +19,7 @@
     "openai": "^4.2.0"
   },
   "engines": {
-    "node": ">=14 <15"
+    "node": "16.6.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
