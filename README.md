@@ -3,7 +3,7 @@
 This project is a web application built using the MERN stack. It integrates the OpenAI API and uses Tailwind with React to provide a modern, responsive UI.
 
 ## Link to the demo: https://openai-dalle-text-to-image.netlify.app/
-
+### Note: Render Server will not work untill it is connected using my system.
 ## Table of Contents
 
 - [Features](#features)
