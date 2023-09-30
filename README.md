@@ -4,6 +4,8 @@ This project is a web application built using the MERN stack. It integrates the 
 
 ## Link to the demo: https://openai-dalle-text-to-image.netlify.app/
 ### Note: Render Server will not work untill it is connected using my system.
+<img width="1228" alt="Screenshot 2023-08-27 at 2 47 41 PM" src="https://github.com/hritvikgupta/dalle_clone/assets/60143996/dec0f353-b533-4c12-a1b3-26a2353b73c9">
+
 ## Table of Contents
 
 - [Features](#features)
